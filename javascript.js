@@ -1,17 +1,17 @@
 var sq =[
 {
-	"id": 1,
-    "nombre": "Natalia", 
-    "apellido": "Garrido", 
-    "edad": 27, 
+    "id": 1,
+    "nombre": "Paola",
+    "apellido": "Urra",
+    "edad": 28,
     "hobbies": {
-    	"uno": "animales", 
-    	"dos": "comida", 
-    	"tres": "series"
-    	}
-    "fechaNac": 23 09 1989, 
+        "uno": "Dormir", 
+        "dos": "ver netflix", 
+        "tres": "jugar Xbox"
+        },
+    "fechaNac": "18 07 1988",
     "lugarNac": "Santiago"
- },
+},
 {
 	"id": 2,
     "nombre": "Paola",    
@@ -21,8 +21,8 @@ var sq =[
     	"uno": "Dormir", 
     	"dos": "ver netflix", 
     	"tres": "jugar Xbox"
-    	}
-    "fechaNac": 18 07 1988, 
+    	},
+    "fechaNac": "18 07 1988", 
     "lugarNac": "Santiago"
  },
  {
@@ -34,8 +34,8 @@ var sq =[
     	"uno": "componer, cantar, tocar bateria, bajo y guitarra",  
     	"dos": "ver netflix",  
     	"tres": "hacer cosas chori con mi hijo y esposo"
-    	}
-    "fechaNac": 08 12 1985, 
+    	},
+    "fechaNac": "08 12 1985", 
     "lugarNac": "Santiago"
  },
  {
@@ -47,8 +47,8 @@ var sq =[
     	"uno": "Jugar videojuegos",
     	"dos": "Ver anime/series",
     	"tres": "Hacer manualidades y sacar la vuelta xD"
-    	}
-    "fechaNac": 27 10 1990,
+    	},
+    "fechaNac": "27 10 1990",
     "lugarNac": "Santiago"
  },
  {
@@ -60,8 +60,8 @@ var sq =[
     	"uno": "arte", 
     	"dos": "musica",
     	"tres": "literatura"
-   	}
-    "fechaNac": 29 01 1993, 
+   	},
+    "fechaNac": "29 01 1993", 
     "lugarNac": "Curacautin" 
  },
  {
@@ -73,21 +73,21 @@ var sq =[
     	"uno": "leer", 
     	"dos": "jardinear", 
     	"tres": "manualidades"
-    	}
-    "fechaNac": 13 05 1989,
+    	},
+    "fechaNac": "13 05 1989",
     "lugarNac": "Santiago"
  },
  {
 	"id": 7,
-    "nombre": "Vanessa",     "Puerto Montt" 
+    "nombre": "Vanessa", 
     "apellido": "Pérez", 
     "edad": 35, 
     "hobbies": {
     	"uno": "Karate do", 
     	"dos": "cantar y pasarla bien", 
     	"tres": "disfrutar a mis 6 hijos"
-    	}
-    "fechaNac": 23 04 1982, 
+    	},
+    "fechaNac": "23 04 1982", 
     "lugarNac": "Puerto Montt"
  },
  {
@@ -99,8 +99,8 @@ var sq =[
     	"uno": "vender cosas ricas", 
     	"dos": "pasarla bien con el pololo", 
     	"tres": "series"
-    	}
-    "fechaNac": 28 06 1993, 
+    	},
+    "fechaNac": "28 06 1993", 
     "lugarNac": "Viña del mar"
  },
  {
@@ -112,14 +112,14 @@ var sq =[
     	"uno": "dormir",
     	"dos": "sacar a pasear al perro", 
     	"tres": "reconciar y patear al pololo"
-    	}
-    "fechaNac": 03 11 1983,
+    	},
+    "fechaNac": "03 11 1983",
     "lugarNac": "Santiago"
  }
 ]
 
 sq.forEach(function(element){
-document.write("<div>" + element.id + "Nombre y apellido: " + element.nombre+ " " + element.apellido + "<br>" + "Edad: " + element.edad + "<br>" + "Fecha de nacimiento: " + element.fechaNac + "<br>" + "Lugar de Nacimiento: " + element.lugarNac + "<br><br>" + "</div>");
+document.write("<div>" + element.id + " Nombre y apellido: " + element.nombre+ " " + element.apellido + "<br>" + "Edad: " + element.edad + "<br>" + "Fecha de nacimiento: " + element.fechaNac + "<br>" + "Lugar de Nacimiento: " + element.lugarNac + "<br>" + " hobbies: " + "<li>"element.hobbies.uno"</li>" + "<br><br>" + "</div>");
 });
 
 sq();
